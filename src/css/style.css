@@ -2,9 +2,9 @@ body {
     background-image: url(../images/bg_body.jpg)
 }
 .wrapper {
+    margin-left: 115px;
    
 }
-
 header {}
 .header {}
 .logo {}
@@ -26,8 +26,12 @@ ul {}
 .auth-link {
     display: inline-block;
 }
-.content {}
+.content {
+    
+}
 .promo {
+    background-image: url(../images/bg_promo.png);
+    
     font-style: Italic;
     font-size: 14px; 
     font-family: Georgia; 
@@ -50,10 +54,16 @@ p {
 h2 {
     font: normal 18px Georgia;
     color: #fff68d;
-    
+    clear: left;
+    margin-left: 115px;
 }
 .footer{
     font: normal 11px Verdana;
     color: #f9da5a;
 }
 .footermenu {}
+
+article img{
+    float:left;
+    margin: 20px 10px;
+}
