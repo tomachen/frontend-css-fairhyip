@@ -2,26 +2,49 @@ body {
     background-image: url(../images/bg_body.jpg)
 }
 .wrapper {
-    margin-left: 115px;
-   
+    width: 1000px;
+    margin: auto;
+       
 }
-header {}
-.header {}
-.logo {}
-ul {}
+
+.header {
+    position: relative;
+    height: 150px;
+    margin-bottom: 50px;
+}
+.logo {
+    position: absolute;
+    bottom: 0;
+}
+
 .mainmenu {
      
 }
-.menu-list {}
+.menu-list {
+    position:absolute;
+    bottom: 0;
+    right: 0;
+}
 .menu-item {
     display: inline-block;
+    
 }
 .menu-item active {}
-.lang-list {}
+.lang-list {
+    position: absolute;
+    top: 50px;
+    left: 20px;
+}
 .lang-item {
     display: inline-block;
+    
+    
 }
-.auth {}
+.auth {
+    position: absolute;
+    top: 50px;
+    right: 20px;
+}
 .auth-link signin {}
 .auth-link {
     display: inline-block;
