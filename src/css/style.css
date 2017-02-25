@@ -20,10 +20,8 @@ body {
     bottom: 0;
 }
 
-.mainmenu {
-     
-}
-.menu-list {
+
+.mainmenu .menu-list {
     background-color: #f2f1f0;
     border: 1px solid #fff;
     border-radius: 5px;
@@ -157,7 +155,41 @@ h2 {
     margin-bottom: 25px;
 }
 .footer{
-    font: normal 11px Verdana;
+    width: 1000px;
+    height: 76px;
+    margin: auto;
+    padding-top: 45px;
+    border-top: 1px solid #fff68d;
+    font-size: 11px;
+    font-family: Verdana;
     color: #f9da5a;
+  
 }
-.footermenu {}
+.footer div {
+    float: left;
+    clear: both;
+}
+.footermenu .menu-list {
+    float:right;
+    
+}
+.footermenu .menu-list .menu-item{
+    display: inline-block;
+    float: left;
+}
+.footermenu .menu-list .menu-item a{
+    display: inline-block;
+    font-size: 11px;
+    font-family: Verdana;
+    color: #fff;
+    padding: 0 10px;
+}
+.footermenu .menu-list .menu-item::after{
+    content: ' | ';
+    color: #fff;
+
+}
+
+.footermenu .menu-list .menu-item:last-child:after{
+    content: '';
+}
