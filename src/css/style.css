@@ -22,7 +22,7 @@ body {
 }
 
 
-.mainmenu .menu-list {
+header .mainmenu .menu-list {
     background-color: #f2f1f0;
     border: 1px solid #fff;
     border-radius: 5px;
@@ -31,14 +31,14 @@ body {
     right: 0;
     
 }
-.menu-item {
+header .mainmenu .menu-item {
     display: block;
     float:left;
    /*border-left: 1px solid black;
     border-right: 1px solid black;  */
     
 }
-.menu-item a {
+header .mainmenu .menu-item a {
     display: block;
     text-decoration: none;
     font-size: 14px;
@@ -47,10 +47,10 @@ body {
     padding: 12px 30px;
 
 }
-.menu-item:first-child {
+header .mainmenu .menu-item:first-child {
     margin-left: 0px;
 }
-.menu-item.active a:hover {
+header .mainmenu .menu-item.active a:hover {
     background: url(../images/bg_menu-item-active.png)
 }
 .lang-list {
