@@ -1,14 +1,14 @@
-body { 
+body {
     background-image: url(../images/bg_body.jpg);
     font-style: normal;
     font-size: 11px;
     font-family: verdana;
     color: #d7cfc8;
 }
+
 .wrapper {
     width: 1000px;
     margin: auto;
-       
 }
 
 .header {
@@ -16,29 +16,29 @@ body {
     height: 150px;
     margin-bottom: 50px;
 }
+
 .logo {
     position: absolute;
     bottom: 0;
 }
-
 
 header .mainmenu .menu-list {
     list-style: none;
     background-color: #f2f1f0;
     border: 1px solid #fff;
     border-radius: 5px;
-    position:absolute;
+    position: absolute;
     bottom: 0;
     right: 0;
-    
 }
+
 header .mainmenu .menu-item {
     display: block;
-    float:left;
-   /*border-left: 1px solid black;
+    float: left;
+    /*border-left: 1px solid black;
     border-right: 1px solid black;  */
-    
 }
+
 header .mainmenu .menu-item a {
     display: block;
     text-decoration: none;
@@ -46,74 +46,70 @@ header .mainmenu .menu-item a {
     font-family: georgia;
     color: #461500;
     padding: 12px 30px;
+}
 
-}
 header .mainmenu .menu-item a:hover {
-     background: url(../images/bg_menu-item-active.png); background-size: cover;
+    background: url(../images/bg_menu-item-active.png);
+    background-size: cover;
 }
+
 header .mainmenu .menu-item:first-child {
     margin-left: 0px;
 }
 
-header .mainmenu .menu-item.active a:active {
+header .mainmenu .menu-item.active a {
     background: url(../images/bg_menu-item-active.png);
 }
+
 .lang-list {
     position: absolute;
     top: 50px;
     left: 20px;
-    
 }
-
 
 .lang-item {
     display: inline-block;
     color: #e8d1a4;
-    
 }
 
-.lang-item a{
+.lang-item a {
     color: #fff;
 }
-.lang-item::after{
+
+.lang-item::after {
     content: ' | ';
 }
 
-.lang-item:last-child:after{
+.lang-item:last-child:after {
     content: '';
 }
-
 
 .auth {
     position: absolute;
     top: 50px;
     right: 20px;
 }
-    
-.auth-link a{
+
+.auth-link a {
     color: #fff;
 }
 
 .auth-link a:hover {
     color: #e8d1a4;
     display: inline-block;
-    
 }
 
 .promo {
     position: relative;
     box-sizing: border-box;
-    background: url(../images/bg_promo.png); 
+    background: url(../images/bg_promo.png);
     border-radius: 6px;
-
     /*background-image: url(../images/bg_about.png);
     background-repeat: no-repeat;
     background-position: left;*/
-    
-    
     font-style: Italic;
-    font-size: 14px; 
-    font-family: Georgia; 
+    font-size: 14px;
+    font-family: Georgia;
     color: #f9da5a;
     line-height: 150%;
     height: 157px;
@@ -121,14 +117,16 @@ header .mainmenu .menu-item.active a:active {
     padding-right: 20px;
     padding-top: 25px;
 }
+
 .promo:before {
-	content: url(../images/bg_about.png);
-	display: block;
-	position: absolute;
-	top:0;
-	left: 0;
+    content: url(../images/bg_about.png);
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
     margin-left: 57px;
-    margin-top: 32px;}
+    margin-top: 32px;
+}
 
 .promo img {
     position: absolute;
@@ -143,25 +141,25 @@ h1 {
     color: #ead4aa;
     margin-bottom: 25px;
 }
+
 .article {
-    position:relative;
+    position: relative;
     padding: 26px;
 }
 
-.article img{
+.article img {
     position: absolute;
     left: 20px;
     top: 50px;
-    
 }
 
 p {
     font-style: normal;
     font-size: 11px;
     font-family: verdana;
-    
     margin-left: 150px;
 }
+
 h2 {
     font: normal 18px Georgia;
     color: #fff68d;
@@ -169,42 +167,45 @@ h2 {
     margin-left: 150px;
     margin-bottom: 25px;
 }
-.footer{
+
+.footer {
     width: 1000px;
     height: 31px;
     margin: auto;
     padding-top: 45px;
-    border-top: 1px solid #fff68d;
+    border-top: 1px solid rgba(215, 182, 73, 0.44);
     font-size: 11px;
     font-family: Verdana;
     color: #f9da5a;
-  
 }
+
 .footer div {
     float: left;
     clear: both;
 }
+
 .footermenu .menu-list {
-    float:right;
-    
+    float: right;
 }
-.footermenu .menu-list .menu-item{
+
+.footermenu .menu-list .menu-item {
     display: inline-block;
     float: left;
 }
-.footermenu .menu-list .menu-item a{
+
+.footermenu .menu-list .menu-item a {
     display: inline-block;
     font-size: 11px;
     font-family: Verdana;
     color: #fff;
     padding: 0 10px;
 }
-.footermenu .menu-list .menu-item::after{
+
+.footermenu .menu-list .menu-item::after {
     content: ' | ';
     color: #fff;
-
 }
 
-.footermenu .menu-list .menu-item:last-child:after{
+.footermenu .menu-list .menu-item:last-child:after {
     content: '';
 }
