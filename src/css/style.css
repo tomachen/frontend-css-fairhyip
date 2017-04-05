@@ -115,8 +115,8 @@ header .mainmenu .menu-item.active a {
     height: 157px;
     padding-left: 145px;
     padding-right: 20px;
-    padding-top: 25px;
-    margin-bottom: 57px;
+    padding-top: 20px;
+    margin-bottom: 51px;
 }
 
 .promo:before {
@@ -133,6 +133,8 @@ header .mainmenu .menu-item.active a {
     position: absolute;
     left: 57px;
     top: 32px;
+    width: 100px;
+	height: auto;
 }
 
 h1 {
@@ -140,7 +142,8 @@ h1 {
     font-size: 22px;
     font-family: Georgia;
     color: #ead4aa;
-    margin-bottom: 25px;
+    margin-bottom: 18px;
+    line-height: normal;
 }
 
 .article {
@@ -169,6 +172,7 @@ h2 {
     clear: left;
     margin-left: 150px;
     margin-bottom: 17px;
+    line-height: normal;
 }
 
 .footer {
