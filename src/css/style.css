@@ -129,13 +129,13 @@ header .mainmenu .menu-item.active a {
     margin-top: 32px;
 }
 
-.promo img {
+/*.promo img {
     position: absolute;
     left: 57px;
     top: 32px;
     width: 100px;
 	height: auto;
-}
+}*/
 
 h1 {
     font-style: normal;
@@ -157,6 +157,8 @@ h1 {
     left: 20px;
     top: 50%;
     margin-top: -32px;
+    width: 100px;
+	height: auto;
 }
 
 p {
